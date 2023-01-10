@@ -1,0 +1,66 @@
+main {
+    font-family:"Poppins", sans-serif;
+    min-height:  100vh;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #426696;
+    font-weight: 300 bold;
+    font-size: 30px;
+    opacity: 0.8;
+}
+h2 , span{
+
+    color: #a00e15;
+    font-weight: 300;
+    font-size: 30px;
+    opacity: 0.8;
+    position: relative;
+}
+
+  .ana {
+    background: white;
+    min-height: 80vh ;
+    width: 85% ;
+    background: linear-gradient(
+        to right bottom ,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+  .summary{
+    display: flex;
+  }
+ .text{
+    color: #426696;
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.8;
+    width: 60%;
+    float:left;
+}
+
+
+.pictures{
+    width: 40%;
+    float: left;
+}
+.baslik h2{
+    
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+}
